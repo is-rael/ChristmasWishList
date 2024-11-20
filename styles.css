@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3f3f3;
+}
+
+.chest-container {
+    display: flex;
+    gap: 20px;
+}
+
+.chest {
+    position: relative;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+}
+
+.chest img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.chest-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border: 2px solid #000;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.hidden {
+    display: none;
+}
