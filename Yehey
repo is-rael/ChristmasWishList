@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Chests</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chest-container">
+        <div class="chest" onclick="toggleChest(this)">
+            <img src="chest-closed.png" alt="Chest" class="chest-image">
+            <img src="image1.jpg" alt="Image 1" class="hidden chest-content">
+        </div>
+        <div class="chest" onclick="toggleChest(this)">
+            <img src="chest-closed.png" alt="Chest" class="chest-image">
+            <img src="image2.jpg" alt="Image 2" class="hidden chest-content">
+        </div>
+        <div class="chest" onclick="toggleChest(this)">
+            <img src="chest-closed.png" alt="Chest" class="chest-image">
+            <img src="image3.jpg" alt="Image 3" class="hidden chest-content">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
